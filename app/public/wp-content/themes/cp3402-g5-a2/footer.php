@@ -25,7 +25,7 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'cp3402-g5-a2' ), 'cp3402-g5-a2', '<a href="http://underscores.me/">Underscores.me</a>' );
 				?>
 		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
