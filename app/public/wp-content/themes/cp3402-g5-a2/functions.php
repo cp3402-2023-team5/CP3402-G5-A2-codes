@@ -140,7 +140,7 @@ add_action( 'widgets_init', 'cp3402_g5_a2_widgets_init' );
 function cp3402_g5_a2_scripts() {
 	wp_enqueue_style( 'cp3402-g5-a2-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'cp3402-g5-a2-main', get_template_directory_uri() . '/css/main.css');
-
+	
 	wp_style_add_data( 'cp3402-g5-a2-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'cp3402-g5-a2-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

@@ -26,26 +26,36 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'cp3402-g5-a2' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$cp3402_g5_a2_description = get_bloginfo( 'description', 'display' );
-			if ( $cp3402_g5_a2_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $cp3402_g5_a2_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
+		<div class="container pt-2 pb-2">
+			<div class="row">
+				<div class="col site-header__logo">
+					<?php the_custom_logo(); ?>
+				</div>
+				<div class="col about jcu">
+					<div style="margin-top: 50px"><h5>About JCU</h5></div>
+				</div>
+				<div class="col highlights">
+					<div style="margin-top: 50px"><h5>Highlights</h5></div>
+				</div>
+				<div class="col venue">
+					<div style="margin-top: 50px"><h5>Venue</h5></div>
+				</div>
+				<div class="col register now">
+					<div style="margin-top: 50px"><h5>Register Now</h5></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <video width="100%" height="600" loop controls autoplay>
+    		<source src="C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-content\themes\cp3402-g5-a2\video.mp4" type="video/mp4">
+    	</video> -->
+
+		<iframe width="100%" height="600" loop=1 autoplay=1
+			src="https://www.youtube.com/watch?v=UhqJ6h9KL-k">
+		</iframe>
+
+		<!-- <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cp3402-g5-a2' ); ?></button>
 			<?php
 			wp_nav_menu(
@@ -55,5 +65,5 @@
 				)
 			);
 			?>
-		</nav><!-- #site-navigation -->
+		</nav>#site-navigation -->
 	</header><!-- #masthead -->
