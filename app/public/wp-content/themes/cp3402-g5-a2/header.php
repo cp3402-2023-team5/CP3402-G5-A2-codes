@@ -22,48 +22,87 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'cp3402-g5-a2' ); ?></a>
 
-	<header id="masthead" class="site-header">
+<header class="smp-header" role="banner">
 
-		<div class="container pt-2 pb-2">
-			<div class="row">
-				<div class="col site-header__logo">
-					<?php the_custom_logo(); ?>
-				</div>
-				<div class="col about jcu">
-					<div style="margin-top: 50px"><h5>About JCU</h5></div>
-				</div>
-				<div class="col highlights">
-					<div style="margin-top: 50px"><h5>Highlights</h5></div>
-				</div>
-				<div class="col venue">
-					<div style="margin-top: 50px"><h5>Venue</h5></div>
-				</div>
-				<div class="col register now">
-					<div style="margin-top: 50px"><h5>Register Now</h5></div>
-				</div>
+	
+	
+
+<div class="smp-header__upper">
+    <div class="container">
+
+        <div class="smp-header-tip__accessibility">
+            <div class="smp-header-tip__accessibility-skip js-header-skip">
+                <a href="#main">Skip navigation</a>
+            </div>
+            <div class="smp-header-tip__accessibility-tip js-header-tip">
+                <span>Use space to open navigation items</span>
+            </div>
+        </div>
+
+        <div class="smp-header__content d-flex align-items-center justify-content-between">
+            
+                <div class="smp-header__logo" style="background-image: url(https://www.jcu.edu.sg/__data/assets/image/0011/1232579/logoJCUS.png)">
+                    <a href="https://www.jcu.edu.sg/university-pathways-discovery-week">
+            <span class="sr-only">JCU Singapore Logo</span>
+        </a>
+                </div>
+            
+            <div class="smp-header__right col-6 col-md-8 d-flex align-items-center align-content-center justify-content-end">
+                <button class="smp-header__mobile-btn smp-js-smpmobile-btn" aria-controls="smp-header-menu__mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="sr-only">Open/Close Menu Button</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+	<div class="smp-header__lower">
+
+		
+		<nav class="smp-navigation-dropdown" role="navigation">
+			<div class="smp-navigation-dropdown__inner flex-wrap d-flex ">
+				
+				
+                <nav class="smp-navigation-secondary smp-navigation-secondary--top-nav">
+                    <ul>
+                               
+                        <li>
+                            <a href="#rankings">
+                                Rankings
+                            </a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="#admissionsday">
+                                Admissions Day
+                            </a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="#virtualcampustour">
+                                Campus Tour
+                            </a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="#register">
+                                Register Now
+                            </a>                           
+                        </li>                   
+                    </ul>
+                </nav>
 			</div>
-		</div>
+		</nav>
+	</div>
+</header>
 
-		<!-- <video width="100%" height="600" loop controls autoplay>
-    		<source src="C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-content\themes\cp3402-g5-a2\video.mp4" type="video/mp4">
-    	</video> -->
-
-		<iframe width="100%" height="600" loop=1 autoplay=1
-			src="https://www.youtube.com/watch?v=UhqJ6h9KL-k">
-		</iframe>
-
-		<!-- <nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cp3402-g5-a2' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav>#site-navigation -->
-	</header><!-- #masthead -->
+		

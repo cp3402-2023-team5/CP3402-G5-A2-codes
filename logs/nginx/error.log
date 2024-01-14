@@ -1,0 +1,1 @@
+2024/01/11 02:25:57 [error] 20452#19176: *55200 directory index of "C:/Users/Lenovo/Local Sites/cp3402-g5-a2/app/public/wp-content/uploads/2024/01/" is forbidden, client: ::1, server: , request: "GET /wp-content/uploads/2024/01/ HTTP/1.1", host: "cp3402-g5-a2.local:10016"

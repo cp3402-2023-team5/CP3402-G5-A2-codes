@@ -6,3 +6,4 @@
 [08-Jan-2024 14:47:56 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-content\themes\cp3402-g5-a2\functions.php on line 144
 [08-Jan-2024 14:47:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
 [08-Jan-2024 14:47:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[14-Jan-2024 08:57:40 UTC] Cron unschedule event error for hook: woocommerce_cancel_unpaid_orders, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}

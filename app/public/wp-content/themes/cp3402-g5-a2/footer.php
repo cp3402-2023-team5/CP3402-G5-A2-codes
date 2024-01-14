@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -11,56 +12,127 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer" >
-	
-	<div class="bg-secondary text-white pt-5 pb-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-2">
-					<a href="https://www.facebook.com/jcu.singapore.fanpage/">
-						<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-facebook" viewBox="0 0 20 20">
-  							<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-						</svg>
-					</a>
+<footer id="colophon" class="site-footer">
 
-					<a href="https://www.instagram.com/jcusingapore/">
-						<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-instagram" viewBox="0 0 20 20">
-  							<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-						</svg>
-					</a>
+	<footer class="smp-footer" role="contentinfo">
 
-					<a href="https://twitter.com/jcu_singapore">
-						<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-twitter" viewBox="0 0 20 20">
-  							<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-						</svg>
-					</a>
+		<div class="smp-footer__secondary">
+			<div class="container">
+				<ul class="smp-footer__social justify-content-md-end justify-content-center d-flex">
+					<li>
+						<a href="https://www.facebook.com/jcu.singapore.fanpage/" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 25 25" class="smp-footer__social-icon">
+								<path fill="" fill-rule="evenodd" d="M15.746 8.325H14.57c-.923 0-1.102.44-1.102 1.082v1.419h2.2l-.286 2.222h-1.914v5.702h-2.295v-5.702H9.255v-2.222h1.918V9.187c0-1.902 1.162-2.937 2.858-2.937.813 0 1.511.06 1.715.088v1.987zM0 25h25V0H0v25z"></path>
+							</svg>
+							<span class="sr-only">Facebook Link</span>
+						</a>
+					</li>
 
-					<a href="https://www.linkedin.com/school/james-cook-university-australia-singapore-campus/">
-						<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 20 20">
- 							<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-						</svg>
-					</a>
+					<li>
+						<a href="https://www.instagram.com/jcusingapore/" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 26 25" class="smp-footer__social-icon">
+								<g> <!--fill=""> fill-rule="evenodd">-->
+									<path d="M13.443 14.912a2.401 2.401 0 0 0 2.404-2.398 2.401 2.401 0 0 0-2.404-2.398 2.401 2.401 0 0 0-2.404 2.398 2.401 2.401 0 0 0 2.404 2.398"></path>
+									<path d="M19.679 17.267c0 .819-.665 1.483-1.486 1.483H8.665c-.82 0-1.486-.664-1.486-1.483V7.732c0-.819.665-1.482 1.486-1.482h9.528c.82 0 1.486.663 1.486 1.482v9.535zM.929 25h25V0h-25v25z"></path>
+								</g>
+							</svg>
+							<span class="sr-only">Instagram Link</span>
+						</a>
+					</li>
 
-					<a href="https://www.youtube.com/user/jcusingaporevideo">
-						<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-youtube" viewBox="0 0 20 20">
-							<path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-						</svg>
-					</a>
+					<li>
+						<a href="https://twitter.com/jcu_singapore" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 26 25" class="smp-footer__social-icon">
+							<path d="M18.327 9.95c.005.11.008.221.008.333 0 3.388-2.58 7.296-7.297 7.296a7.261 7.261 0 0 1-3.93-1.152 5.144 5.144 0 0 0 3.797-1.063 2.567 2.567 0 0 1-2.397-1.78 2.587 2.587 0 0 0 1.159-.044 2.565 2.565 0 0 1-2.058-2.514v-.033c.346.192.742.308 1.162.321a2.564 2.564 0 0 1-.794-3.424 7.281 7.281 0 0 0 5.286 2.68 2.565 2.565 0 0 1 4.37-2.34 5.132 5.132 0 0 0 1.629-.621 2.577 2.577 0 0 1-1.128 1.418 5.146 5.146 0 0 0 1.473-.404 5.22 5.22 0 0 1-1.28 1.328zM.857 25h25V0h-25v25z"></path>
+							</svg>
+							<span class="sr-only">Twitter Link</span>
+						</a>
+					</li>
 
-					<a href="https://www.tiktok.com/@jcusingapore">
-						<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 20 20">
-							<path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
-						</svg>
-					</a>
+					<li>
+						<a href="https://www.linkedin.com/school/james-cook-university-australia-singapore-campus/" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 26 25" class="smp-footer__social-icon">
+								<path d="M19.536 18.738h-2.59v-4.053c0-.966-.017-2.21-1.346-2.21-1.348 0-1.553 1.054-1.553 2.141v4.122h-2.588v-8.334h2.483v1.14h.036c.345-.656 1.19-1.347 2.45-1.347 2.623 0 3.108 1.726 3.108 3.97v4.571zM8.539 9.266a1.502 1.502 0 1 1-.002-3.004 1.502 1.502 0 0 1 .002 3.004zm1.295 9.472H7.241v-8.334h2.593v8.334zM.786 25h25V0h-25v25z"></path>
+							</svg>
+							<span class="sr-only">Linkedin Link</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.youtube.com/user/jcusingaporevideo" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 26 25" class="smp-footer__social-icon">
+								<!-- <g fill="" fill-rule="evenodd"> -->
+								<g>
+									<path d="M11.924 14.121l3.377-1.75-3.378-1.762z"></path>
+									<path d="M19.464 12.972c0 1.012-.125 2.023-.125 2.023s-.122.861-.497 1.24c-.475.499-1.007.5-1.252.53-1.75.126-4.376.13-4.376.13s-3.25-.03-4.25-.125c-.278-.052-.903-.036-1.378-.534-.375-.38-.497-1.24-.497-1.24s-.125-1.012-.125-2.024v-.949c0-1.011.125-2.022.125-2.022s.122-.862.497-1.242c.475-.497 1.008-.5 1.253-.529 1.749-.126 4.373-.126 4.373-.126h.005s2.624 0 4.373.126c.245.03.777.032 1.252.53.375.38.497 1.24.497 1.24s.125 1.012.125 2.023v.949zM.714 25h25V0h-25v25z"></path>
+								</g>
+							</svg>
+							<span class="sr-only">Youtube Link</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.tiktok.com/@jcusingapore" target="_blank">
+							<svg class="smp-footer__social-icon tiktok" version="1.1" id="Layer_1" width="26" height="25" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2858.4 3333.2" style="enable-background:new 0 0 2858.4 3333.2;" xml:space="preserve">
+								<!-- <style type="text/css">
+									.st0 {
+										fill-rule: evenodd;
+										clip-rule: evenodd;
+									}
+								</style> -->
+								<g>
+									<path class="st0" d="M2080.4,0c55,473,319,755,778,785v532c-266,26-499-61-770-225v995c0,1264-1378,1659-1932,753 c-356-583-138-1606,1004-1647v561c-87,14-180,36-265,65c-254,86-398,247-358,531c77,544,1075,705,992-358V1h551V0z"></path>
+								</g>
+							</svg>
+							<span class="sr-only">Tiktok Link</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="smp-footer__primary">
+			<div class="container">
+				<div class="smp-footer__legal">
+					<div class="smp-footer__universities">
+						<ul class="smp-footer_university-logos">
+							<li class="smp-footer__jcu-logo">
+								<a href="https://www.jcu.edu.au" title="JCU Australia">
+									<img src="https://www.jcu.edu.sg/__data/assets/image/0014/239/varieties/footer.png" alt="JCU">
+								</a>
+							</li>
+							<li class="smp-footer__singapore-tagline-item">
+								<div class="smp-footer__singapore-tagline">1 university • 2 countries • 4 distinct locations</div>
+								<div class="smp-footer__singapore-tagline-sub">Creating a brighter future for life in the Tropics and beyond, through education and research that makes a difference locally, and globally.</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="smp-footer__business">
+					<div class="smp-footer__copyright">
+						<p class="smp-footer__date-published">Last published: 12th January 2024</p>
+						<p>James Cook University Australia offers pathway, undergraduate and postgraduate programs at the Singapore campus of James Cook University.</p>
+						<ul>
+							<li><span class="smp-footer_business_info">James Cook University</span></li>
+							<li><span class="smp-footer_business_info">149 Sims Drive, S(387380)</span></li>
+							<li><span class="smp-footer_business_info">CPE Registration No. 200100786K</span></li>
+							<li><span class="smp-footer_business_info">Period of Registration: 13 July 2022 to 12 July 2026</span></li>
+						</ul>
+					</div>
+					<div class="smp-footer__disclaimer">
+						<ul>
+							<li class="smp-footer_business_link"><a href="https://www.jcu.edu.sg/privacy">Privacy Policy</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 	</footer><!-- #colophon -->
-</div><!-- #page -->
+	</div><!-- #page -->
 
-<?php wp_footer(); ?>
+	<?php wp_footer(); ?>
 
-</body>
-</html>
+	</body>
+
+	</html>
