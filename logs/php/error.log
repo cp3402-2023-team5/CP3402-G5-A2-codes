@@ -1,0 +1,5 @@
+[07-Jan-2024 08:12:03 UTC] PHP Parse error:  syntax error, unexpected token "require", expecting "{" in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-content\themes\cp3402-g5-a2\functions.php on line 162
+[07-Jan-2024 08:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[07-Jan-2024 08:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[07-Jan-2024 08:14:04 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-content\themes\cp3402-g5-a2\functions.php on line 161
+[07-Jan-2024 08:20:07 UTC] PHP Parse error:  syntax error, unexpected token "require" in C:\Users\Lenovo\Local Sites\cp3402-g5-a2\app\public\wp-content\themes\cp3402-g5-a2\functions.php on line 168
